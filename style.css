@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+    max-width: 1220px;
+    margin: auto;
+}
+.div-header{
+    display: flex;
+}
+.lista-header{
+    display: flex;
+    list-style: none;
+}
+header li{
+    margin-top: 35px;
+    margin-left: 15px;
+}
+.links-sociais{
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.blocos{
+    display: flex;
+}
+.foto-perfil{
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-left: 40%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 200px;
+  padding: 3px;
+}
+.foto-perfil-2{
+    width: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 2px solid white;
+}
+.titulo{
+  margin-top: 30px;
+}
+.titulo-da-section{
+  margin: 10px 0;
+  background-color: #ccc;
+  border-radius: 10px;
+  padding: 5px 20px;
+  color: black;
+}
+.resumo{
+    margin: 10px 0;
+    background-color: #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    color: black;
+    text-align: justify;
+    font-size: 17px;
+    
+  }
+.titulo-dos-posts{
+  margin-bottom: 10px;
+  border-radius: 10px; 
+  border: 2px solid black;
+}
+.post-1, .post-2, .post-3{
+  background-color: #ccc;
+  padding: 15px;
+  color: black;
+  text-align: justify; 
+  border-radius: 10px; 
+}
+.post-2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.img-post{
+  width: 100%;
+  height: 350px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.section-2{
+    margin-bottom: 10px;
+}
